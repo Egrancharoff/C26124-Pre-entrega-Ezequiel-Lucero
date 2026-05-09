@@ -1,4 +1,4 @@
-# C26124-Pre-entrega-Ezequiel-Lucero
+C26124-Pre-entrega-Ezequiel-Lucero
 -----------------------------------------------
 Este proyecto es la elaboracion de un sistema de gestion de activos.
 
