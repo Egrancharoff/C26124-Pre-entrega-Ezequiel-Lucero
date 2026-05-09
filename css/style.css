@@ -220,3 +220,4 @@ nav ul li a:hover{
     color: var(--ink-black);
     margin-bottom:0;
     font-size: clamp(1.5rem, 5vw, 2.5rem);
+}
