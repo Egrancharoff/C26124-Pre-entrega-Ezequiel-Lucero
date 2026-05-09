@@ -1,0 +1,222 @@
+/* Variables y reset de magenes y padding*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@400;500;600;700&display=swap');
+
+:root{
+    /* Grises principales */
+    --gray-950: #0d0d0f;
+    --gray-900: #1a1a1f;
+    --gray-800: #252530;
+    --gray-700: #343445;
+    --gray-600: #4a4a60;
+    --gray-500: #6b6b85;
+    --gray-400: #9494aa;
+    --gray-300: #c0c0cc;
+    --gray-200: #e0e0e8;
+    --gray-100: #f2f2f6;
+    --gray-050: #f8f8fb;
+
+  /* Acento */
+    --accent:       #3a7bd5;
+    --accent-light: #5a9af0;
+    --accent-dark:  #2560b8;
+    --accent-glow:  rgba(58, 123, 213, 0.18);
+
+  /* Superficies */
+    --surface-bg:     var(--gray-050);
+    --surface-card:   #ffffff;
+    --surface-header: var(--gray-900);
+    --surface-nav:    var(--gray-800);
+    --surface-footer: var(--gray-900);
+    --surface-section-alt: var(--gray-100);
+
+  /* Texto */
+    --text-primary:   var(--gray-900);
+    --text-secondary: var(--gray-600);
+    --text-muted:     var(--gray-400);
+    --text-on-dark:   #ffffff;
+    --text-on-dark-secondary: var(--gray-300);
+
+  /* Bordes */
+    --border-light: var(--gray-200);
+    --border-medium: var(--gray-300);
+
+  /* Sombras */
+    --shadow-sm:  0 1px 3px rgba(0,0,0,.07), 0 1px 2px rgba(0,0,0,.05);
+    --shadow-md:  0 4px 12px rgba(0,0,0,.09), 0 2px 6px rgba(0,0,0,.06);
+    --shadow-lg:  0 10px 30px rgba(0,0,0,.12), 0 4px 12px rgba(0,0,0,.08);
+    --shadow-accent: 0 4px 20px rgba(58,123,213,.25);
+
+  /* Tipografía */
+    --font-body: 'Barlow', sans-serif;
+    --font-display: 'Barlow Condensed', sans-serif;
+
+    /* Transiciones*/
+    --transicion-rapida: .15s ease;
+    --transicion-normal: .25s ease;
+
+    --max-width: 1200px;
+    --seccion-padding: 64px 40px;
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: var(--font-body);
+    background-color: var(--surface-bg);
+    color: var(--text-primary);
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/*Aplicando la tipografia*/
+h1,h2,h3,h4{
+    font-family: var(--font-display);
+    letter-spacing: .02em;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 1.45rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    color: var(--text-on-dark);
+}
+
+h2{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+h3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-primary);
+}
+
+p{
+    color: var(--text-secondary);
+    font-size: .95rem;
+    line-height: 1.5;
+}
+
+/*ENCABEZADO*/
+header{
+    background-color: var(--surface-header);
+    border-bottom: 1px solid var(--gray-700);
+    position:sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 12px rgba(0,0,0,.35);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap:16px;
+}    
+
+.logo{
+    padding-top: 10px;
+    height: 100px;
+    width: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    min-width: 38px;
+}
+/* Navegación */
+nav{
+    background-color: var(--surface-nav);
+    border-bottom: 2px solid var(--accent);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 50px;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+    flex-wrap: wrap;
+    gap:0px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 14px 20px;
+    font-family: var(--font-body);
+    font-size:.87rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: var(--ink-black);
+    transition: color var(--transicion-rapida), border var(--transicion-rapida),background var(--transicion-rapida);
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover{
+    color: var(--blue-slate);
+    border-bottom: 2px solid var(--blue-slate);
+    background-color: var(--pearl-aqua);
+}
+
+/* SECCIONES */
+.seccion{
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--seccion-padding);
+}
+
+/*intro*/
+#intro{
+    background-color: var(--pearl-aqua);
+    border-bottom: 3px solid var(--normal-border);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+#intro > h2{
+    color: var(--ink-black);
+    margin-bottom:0;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
