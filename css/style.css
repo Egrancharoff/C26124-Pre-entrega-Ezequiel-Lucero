@@ -705,161 +705,194 @@ footer{
     --seccion-padding: 28px 16px;
   }
 
-  /* Header: más compacto */
-  header {
-    padding: 0 16px;
-    height: 56px;
-    gap: 10px;
+  /* =========================
+     HEADER
+     ========================= */
+
+  header{
+      height: auto;
+      padding: 12px 16px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 8px;
   }
 
-  h1 {
-    font-size: 1.1rem;
+  .logo{
+      height: 55px;
+      width: auto;
+      padding-top: 0;
   }
 
-  .logo {
-    height: 70px;
-    padding-top: 6px;
+  h1{
+      font-size: 1rem;
+      line-height: 1.1;
   }
 
-  /* Nav: scroll horizontal */
-  nav {
-    top: 56px;
-    padding: 0 16px;
-    height: auto;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Firefox: ocultar scrollbar */
+  /* =========================
+     NAV
+     ========================= */
+
+  nav{
+      position: relative;
+      top: 0;
+      height: auto;
+      padding: 0 16px;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
   }
 
-  nav::-webkit-scrollbar {
-    display: none; /* Chrome/Safari: ocultar scrollbar */
+  nav::-webkit-scrollbar{
+      display: none;
   }
 
-  nav ul {
-    flex-wrap: nowrap;
-    height: auto;
-    width: max-content;
-    gap: 0;
+  nav ul{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      width: max-content;
+      margin: 0 auto;
   }
 
-  nav ul li a {
-    padding: 10px 12px;
-    font-size: .78rem;
-    white-space: nowrap;
+  nav ul li a{
+      padding: 10px 12px;
+      font-size: .78rem;
+      white-space: nowrap;
   }
 
-  /* scroll margin ajustado al header más corto */
+  /* =========================
+     SECCIONES
+     ========================= */
+
   #intro,
   #lista-vehiculos,
   #portal-documentacion,
   #actualizar-bases-datos,
   #reportes,
-  #contacto {
-    scroll-margin-top: 100px;
+  #contacto{
+      scroll-margin-top: 0;
   }
 
-  /* Intro */
-  #intro {
-    padding: 20px 16px;
-    gap: 12px;
+  #intro{
+      padding: 32px 16px 20px;
+      gap: 12px;
   }
 
-  #intro > p {
-    font-size: .95rem;
+  #intro > p{
+      font-size: .95rem;
   }
 
-  /* Layouts generales */
   .layout-vehiculos,
   .layout-documentacion,
   .layout-actualizar,
   .layout-reportes,
-  #contacto {
-    padding: 20px 16px;
-    gap: 16px;
+  #contacto{
+      padding: 20px 16px;
+      gap: 16px;
   }
 
-  /* Cards: 1 columna en mobile */
-  .contenedor-card {
-    grid-template-columns: 1fr;
+  /* =========================
+     GRID DE CARDS
+     ========================= */
+
+  .contenedor-card{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      width: 100%;
   }
 
-  .card {
-    padding: 20px 16px;
+  .card{
+      width: 100%;
+      padding: 20px 16px;
   }
 
-  /* Cards de actualizar: ocupan todo el ancho */
-  .layout-actualizar > .card {
-    flex: 1 1 100%;
-    max-width: 100%;
-    min-width: unset;
+  /* =========================
+     CARDS FLEX
+     ========================= */
+
+  .layout-actualizar > .card,
+  .layout-reportes > .card{
+      flex: 1 1 100%;
+      max-width: 100%;
+      min-width: unset;
   }
 
-  /* Cards de reportes: ocupan todo el ancho */
-  .layout-reportes > .card {
-    flex: 1 1 100%;
-    max-width: 100%;
-    min-width: unset;
+  /* =========================
+     BOTONES
+     ========================= */
+
+  .boton{
+      width: 100%;
+      text-align: center;
+      padding: 12px 16px;
   }
 
-  /* Botones: ancho completo en mobile */
-  .boton {
-    width: 100%;
-    text-align: center;
-    padding: 12px 16px;
+  /* =========================
+     CONTACTO
+     ========================= */
+
+  .contacto-grid{
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "form"
+        "contacto"
+        "mapa"
+        "redes";
+
+      margin-top: 20px;
+      gap: 16px;
   }
 
-  /* Contacto: una columna */
-  .contacto-grid {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "form"
-      "contacto"
-      "mapa"
-      "redes";
-    margin-top: 20px;
-    gap: 16px;
-  }
-
-  .formulario-contacto {
-    align-self: stretch;
-    padding: 20px 16px;
+  .formulario-contacto{
+      width: 100%;
+      padding: 20px 16px;
   }
 
   .formulario-contacto input,
-  .formulario-contacto textarea {
-    font-size: 16px; /* Evita el zoom automático en iOS */
-    padding: 12px 14px;
+  .formulario-contacto textarea{
+      font-size: 16px;
+      padding: 12px 14px;
   }
 
   .footer-contacto,
   .mapa,
-  .redes {
-    padding: 16px;
+  .redes{
+      padding: 16px;
   }
 
-  .mapa iframe {
-    height: 200px;
+  .mapa iframe{
+      height: 200px;
   }
 
-  /* Tipografía */
-  h2 {
-    font-size: 1.15rem;
+  /* =========================
+     TIPOGRAFÍA
+     ========================= */
+
+  h2{
+      font-size: 1.15rem;
   }
 
-  h3 {
-    font-size: 1rem;
+  h3{
+      font-size: 1rem;
   }
 
-  p {
-    font-size: .9rem;
+  p{
+      font-size: .9rem;
   }
 
-  /* Footer */
-  footer {
-    padding: 16px;
+  /* =========================
+     FOOTER
+     ========================= */
+
+  footer{
+      padding: 16px;
   }
 
-  .footer-copy p {
-    font-size: .82rem;
+  .footer-copy p{
+      font-size: .82rem;
   }
 }
