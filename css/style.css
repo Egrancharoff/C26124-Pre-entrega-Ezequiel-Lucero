@@ -412,8 +412,6 @@ nav ul li a:hover{
     flex-shrink: 0;
 }
 
-
-
 /*Contacto*/
 #contacto{
     background: var(--gray-800);
@@ -632,4 +630,53 @@ footer{
 .footer-copy p{
     color: var(--text-muted);
     font-size: .9rem;
+}
+
+/*Pagina de compras*/
+#carrito-compras{
+    background-color: var(--surface-bg);
+    border-bottom: 1px solid var(--border-light);
+    max-width: 100%;
+    scroll-margin-top: 110px;
+}
+
+.layout-carrito{
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.layout-carrito > h2 , .layout-carrito > p {
+    flex-basis: 80%;
+    flex-shrink: 0;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+#carrito {
+    width: 100%;
+    background: var(--surface-card);
+    border: 1px solid var(--border-light);
+    border-radius: 8px;
+    padding: 28px 24px;
+    box-shadow: var(--shadow-sm);
+    transition: transform var(--transicion-normal), box-shadow var(--transicion-normal),border-color var(--transicion-normal);
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+#lista-carrito {
+    width: 100%;
+    border-collapse: collapse;
 }
