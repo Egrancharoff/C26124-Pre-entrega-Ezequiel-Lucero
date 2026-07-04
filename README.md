@@ -9,6 +9,8 @@ Se encuentra dividido en secciones:
 3. Portal de documentacion > Seccion para carga y visualizacion de documentos de los activos.
 4. Actualizacion de base de datos > Seccion para acceder a los formularios para modificar las bases de datos.
 5. Reportes > Seccion para acceder a la visualizacion en pantalla de las bases de datos.
-6. Contacto > Seccion para enviar un formulario de contacto.
+6. Compras > Dirige a una pagina con carrito de compras para el pedido de repuestos.
+7. Contacto > Seccion para enviar un formulario de contacto.
 ----------------------------------------------
 Realizado por Ezequiel Lucero Grancharoff
+

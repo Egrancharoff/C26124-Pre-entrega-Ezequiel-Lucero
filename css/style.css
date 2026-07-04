@@ -391,6 +391,29 @@ nav ul li a:hover{
     text-align: left;
 }
 
+/*Seccion compras*/
+#compras{
+    background-color: var(--surface-bg);
+    border-bottom: 1px solid var(--border-light);
+    max-width: 100%;
+    scroll-margin-top: 110px;
+}
+.layout-compras{
+    margin: 0 auto;
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: flex-start;
+}
+.layout-compras > h2 , .layout-compras > p {
+    flex-basis: 100%;
+    flex-shrink: 0;
+}
+
+
+
 /*Contacto*/
 #contacto{
     background: var(--gray-800);
