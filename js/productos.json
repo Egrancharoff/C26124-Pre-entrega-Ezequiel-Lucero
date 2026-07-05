@@ -5,7 +5,7 @@
         "categoria": "Mantenimiento preventivo",
         "descripcion": "Filtro de aceite de alta calidad para motores de vehículos.",
         "precio": 15.99,
-        "imagen": "imagenes/filtro_aceite.jpg"
+        "imagen": "img/filtro_aceite.jpg"
     },
 
     {
@@ -14,7 +14,7 @@
         "categoria": "Mantenimiento preventivo",
         "descripcion": "Juego de bujías para mejorar el rendimiento del motor.",
         "precio": 29.99,
-        "imagen": "imagenes/bujias.jpg"
+        "imagen": "img/bujias.jpg"
     },
 
     {
@@ -23,7 +23,7 @@
         "categoria": "Frenos",
         "descripcion": "Juego de pastillas de freno de alto rendimiento.",
         "precio": 49.99,
-        "imagen": "imagenes/pastillas_freno.jpg"
+        "imagen": "img/pastillas_freno.jpg"
     },
 
     {
@@ -32,7 +32,7 @@
         "categoria": "Suspensión",
         "descripcion": "Amortiguadores de calidad para una conducción suave.",
         "precio": 89.99,
-        "imagen": "imagenes/amortiguadores.jpg"
+        "imagen": "img/amortiguadores.jpg"
     },
 
     {
@@ -41,7 +41,7 @@
         "categoria": "Mantenimiento preventivo",
         "descripcion": "Aceite de motor sintético para un rendimiento óptimo.",
         "precio": 39.99,
-        "imagen": "imagenes/aceite_motor.jpg"
+        "imagen": "img/aceite_motor.jpg"
     },
 
     {
@@ -50,7 +50,7 @@
         "categoria": "Motor",
         "descripcion": "Correa de distribución resistente y duradera.",
         "precio": 59.99,
-        "imagen": "imagenes/correa_distribucion.jpg"
+        "imagen": "img/correa_distribucion.jpg"
     },
 
     {
@@ -59,7 +59,7 @@
         "categoria": "Eléctrico",
         "descripcion": "Batería de alta capacidad para un arranque confiable.",
         "precio": 99.99,
-        "imagen": "imagenes/bateria_automovil.jpg"
+        "imagen": "img/bateria_automovil.jpg"
     },
 
     {
@@ -68,7 +68,7 @@
         "categoria": "Refrigeración",
         "descripcion": "Radiador de aluminio para una mejor disipación del calor.",
         "precio": 129.99,
-        "imagen": "imagenes/radiador.jpg"
+        "imagen": "img/radiador.jpg"
     },
 
     {
@@ -77,7 +77,7 @@
         "categoria": "Transmisión",
         "descripcion": "Kit completo de embrague para una transmisión suave.",
         "precio": 149.99,
-        "imagen": "imagenes/kit_embrague.jpg"
+        "imagen": "img/kit_embrague.jpg"
     },
 
     {
@@ -86,7 +86,7 @@
         "categoria": "Iluminación",
         "descripcion": "Juego de faros LED para una mejor visibilidad nocturna.",
         "precio": 79.99,
-        "imagen": "imagenes/faros_led.jpg"
+        "imagen": "img/faros_led.jpg"
     },
 
     { 
@@ -96,7 +96,7 @@
         "categoria": "Ruedas",
         "descripcion": "Juego de neumáticos de alto rendimiento para todas las estaciones.",
         "precio": 199.99,
-        "imagen": "imagenes/neumaticos.jpg"
+        "imagen": "img/neumaticos.jpg"
     },
 
     {
@@ -106,7 +106,7 @@
         "categoria": "Frenos",
         "descripcion": "Kit completo de frenos para un rendimiento óptimo.",
         "precio": 249.99,
-        "imagen": "imagenes/kit_frenos.jpg"
+        "imagen": "img/kit_frenos.jpg"
     },
 
     {
@@ -116,7 +116,7 @@
         "categoria": "Escape",
         "descripcion": "Sistema de escape de acero inoxidable para un sonido deportivo.",
         "precio": 299.99,
-        "imagen": "imagenes/sistema_escape.jpg"
+        "imagen": "img/sistema_escape.jpg"
     },
 
     {
@@ -125,7 +125,7 @@
         "categoria": "Suspensión",
         "descripcion": "Kit completo de suspensión para una conducción más cómoda.",
         "precio": 349.99,
-        "imagen": "imagenes/kit_suspension.jpg"
+        "imagen": "img/kit_suspension.jpg"
     },
 
     {
@@ -134,7 +134,7 @@
         "categoria": "Electrónica",
         "descripcion": "Sistema de navegación GPS con pantalla táctil y mapas actualizados.",
         "precio": 399.99,
-        "imagen": "imagenes/sistema_navegacion.jpg"
+        "imagen": "img/sistema_navegacion.jpg"
     },
 
     {
@@ -143,7 +143,7 @@
         "categoria": "Iluminación",
         "descripcion": "Kit de iluminación LED para el interior del vehículo.",
         "precio": 49.99,
-        "imagen": "imagenes/kit_iluminacion_interior.jpg"
+        "imagen": "img/kit_iluminacion_interior.jpg"
     },
 
     {
@@ -152,7 +152,7 @@
         "categoria": "Electrónica",
         "descripcion": "Cámara de reversa con visión nocturna y guía de estacionamiento.",
         "precio": 89.99,
-        "imagen": "imagenes/camara_reversa.jpg"
+        "imagen": "img/camara_reversa.jpg"
     },
 
     {
@@ -161,7 +161,7 @@
         "categoria": "Mantenimiento preventivo",
         "descripcion": "Kit completo para limpiar y mantener el motor en buen estado.",
         "precio": 29.99,
-        "imagen": "imagenes/kit_limpieza_motor.jpg"
+        "imagen": "img/kit_limpieza_motor.jpg"
     },
 
     {
@@ -170,7 +170,7 @@
         "categoria": "Ruedas",
         "descripcion": "Kit de reparación de llantas para solucionar pinchazos y fugas.",
         "precio": 19.99,
-        "imagen": "imagenes/kit_reparacion_llantas.jpg"
+        "imagen": "img/kit_reparacion_llantas.jpg"
     },
 
     {
@@ -179,8 +179,17 @@
         "categoria": "Seguridad",
         "descripcion": "Sistema de alarma con control remoto y sensor de movimiento.",
         "precio": 149.99,
-        "imagen": "imagenes/sistema_alarma.jpg"
+        "imagen": "img/sistema_alarma.jpg"
     
+    },
+
+    {
+        "id": 21,
+        "nombre": "Kit de limpieza de interiores",
+        "categoria": "Mantenimiento preventivo",
+        "descripcion": "Kit completo para limpiar y mantener el interior del vehículo.",
+        "precio": 39.99,
+        "imagen": "img/kit_limpieza_interiores.jpg"
     }
 
 ]
