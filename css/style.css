@@ -683,11 +683,6 @@ footer{
     transition: .25s;
 }
 
-.producto-card:hover{
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-}
-
 .producto-card img{
     width: 100%;
     height: 180px;
@@ -777,17 +772,11 @@ footer{
 #carrito{
         position: static;
         top: 120px;
-        z-index: -120;
+        z-index: 1;
     }
 }
 .producto-card{
     position: static;
     top: 120px;
-    z-index: -120;
-}
-
-.producto-card:hover{
-    transform: translateY(-4px);
-    box-shadow: var(--shadow-lg);
-    z-index: 2;
+    ;
 }
